@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diabetesmanagement">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".nurselogin"/>
+        <activity android:name=".NurseHome"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".nursesettings"/>
+        <activity android:name=".nurseregistration"/>
+        <activity android:name=".Getpatients"/>
+        <activity android:name=".Getdietitians"/>
+        <activity android:name=".Getdoctors"/>
+        <activity android:name=".Getpharmacies"/>
+        <activity android:name=".Getphysiothelapist"/>
+        <activity android:name=".Getnurses"/>
+        <activity android:name=".Physiothelapylink"/>
+        <activity android:name=".Nurselink"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".profile"/>
+        <activity android:name=".Followup"/>
+        <activity android:name=".Flash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

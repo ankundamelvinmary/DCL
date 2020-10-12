@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Diabetes Care Link</string>
+    <string name="details">Diabetes is a group of metabolic disorders characterized by a high blood
+        sugar level over a prolonged period of time.
+       </string>
+    <string name="about">In the light of the increasing burden of non-communicable diseases (NCDs)
+          on health systems in low- and middle-income countries, particularly inSub-Saharan Africa,
+        context-adapted, cost-effective service delivery models are nowrequired as a matter of urgency.
+        We describe the experience ofsetting up and organising a nurse-led Diabetes Mellitus (DM)
+        and Hypertension (HTN) model of care in rural areas and urban here in uganda. Usage of such
+        software will ease our work and time to control diabetes.</string>
+    <string name="select_picture">image</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_dclsettings">dclsettings</string>
+</resources>
